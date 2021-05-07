@@ -1,7 +1,7 @@
 {
     "name": "github-user-search",
     "version": "0.1.0",
-    "homepage": "https://joaopaulu.github.io/igti-github-users",
+    "homepage": "http://joaopaulu.github.io/igti-github-users",
     "private": true,
     "proxy": "http://localhost:8080",
     "dependencies": {
