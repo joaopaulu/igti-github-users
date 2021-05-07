@@ -22,6 +22,7 @@ const Search = () => {
         .catch(() => {
           setInputError('Usuário não encontrado');
           setIsSearch(false);
+          console.log(isSearch);
         })
         .finally(() => {
           setIsSearch(true);

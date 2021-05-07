@@ -27,8 +27,9 @@ const GitCard = ({ gitUsername }: Props) => {
       {isLoading ? (
         <ImageLoader />
       ) : (
-        <div className="col-2 github-foto-container">
+        <div className="github-foto-container">
           <img src={user?.avatar_url} alt="Github Foto" />
+
           <a href={user?.html_url} target="_blank" rel="noreferrer">
             <Button text="Ver Perfil" />
           </a>
@@ -37,7 +38,7 @@ const GitCard = ({ gitUsername }: Props) => {
       {isLoading ? (
         <InfoLoader />
       ) : (
-        <div className="col-9 github-info-container">
+        <div className="github-info-container">
           <div className="flex-info">
             <div className="items-info">
               Repositórios públicos: {user?.public_repos}

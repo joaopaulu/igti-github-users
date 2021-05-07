@@ -1,56 +1,49 @@
 .search-container {
-  margin-top: 54px;
-  margin-left: 90px;
-  margin-right: 99px;
-  background: #E6F7FF;
-  border-radius: 16px;
-  height: 270px;
-}
-
-.form-search{
-  padding-top: 66px;
-  margin-left: 94px;
-  margin-right: 94px;
-}
-
-.form-search label{
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 38px;
-  line-height: 46px;
-  color: #262626;
-  margin-bottom: 12px;
-}
-
-.form-search input{
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 400;
-  width: 676px;
-  height: 40px;  
-  background: #FFFFFF;
-  border: 1px solid #D9D9D9;
-  box-sizing: border-box;
-  border-radius: 4px;  
-  margin-bottom: 20px;
-  padding: 8px 27px 8px 17px;
-
-}
-.form-search input::placeholder{
-color: #BFBFBF;
-}
-
-.input-erro-container{
-  margin-bottom: 10px;
- 
-}
-.input-erro{
-  border-color:#c53030!important;
-}
-
-.input-erro-text{
-  color:#c53030;
-  font-family: Roboto;
-  font-weight: bold;
+    background: #e5e7e9;
+    border-radius: 16px;
+    height: auto;
+    margin: 54px auto;
+    width: 50%;
+    .form-search {
+        padding-top: 36px;
+        margin-left: 94px;
+        margin-right: 94px;
+        padding-bottom: 25px;
+        label {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 38px;
+            line-height: 46px;
+            color: #262626;
+            margin-bottom: 12px;
+        }
+        input {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 400;
+            width: 90%;
+            height: 40px;
+            background: #ffffff;
+            border: 1px solid #d9d9d9;
+            box-sizing: border-box;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            padding: 8px 27px 8px 17px;
+             ::placeholder {
+                color: #bfbfbf;
+            }
+        }
+        .input-erro-container {
+            margin-bottom: 10px;
+        }
+        .input-erro {
+            border-color: #c53030 !important;
+        }
+        .input-erro-text {
+            color: #c53030;
+            font-family: Roboto;
+            font-weight: bold;
+        }
+    }
 }

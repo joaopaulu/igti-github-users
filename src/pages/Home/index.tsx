@@ -1,37 +1,31 @@
 import React from 'react';
 import Button from 'core/components/Button';
 import { Link } from 'react-router-dom';
+import Dev from 'core/assets/images/developer.svg';
 import './styles.scss';
 
 const Home = () => (
   <div className="row home-content">
     <div className="col-6 home-text">
-      <h1 className="text-title">
-        Desafio do Capítulo 3,
-        <br />
-        Bootcamp DevSuperior
-      </h1>
+      <h1 className="text-title">Atividade prévia</h1>
       <div className="container-info">
         <p className="text-subtitle">
-          Bem-vindos ao desafio do capítulo 3 do Bootcamp DevSuperior.
+          Projeto React da disciplina REA – Desenvolvimento Reativo do MBA em
+          Desenvolvimento Fullstack da IGTI, utilizando a API do Github para
+          pesquisa de usuários.
         </p>
         <p className="text-subtitle">
-          Favor observar as instruções passadas no capítulo sobre a elaboração
-          desse projeto.
-        </p>
-        <p className="text-subtitle">
-          Este design foi adaptado a partir de Ant Design System for Figma, de
-          Mateusz Wierzbicki:
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=someone@gmail.com">
-            antforfigma@gmail.com
-          </a>
+          Projeto utilizando as tecnologias: Typescript + Bootstrap + Sass +
+          React + GithubPages
         </p>
       </div>
       <Link to="/search">
-        <Button text="Começar" />
+        <Button text="Iniciar" />
       </Link>
     </div>
-    <div className="col-6"></div>
+    <div className="col-6">
+      <img src={Dev} alt="Developer" />
+    </div>
   </div>
 );
 
