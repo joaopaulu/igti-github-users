@@ -15,10 +15,11 @@ Esse Projeto é uma atividade da disciplina REA – Desenvolvimento Reativo do c
 
 ### Ferramentas 🛠
 
-- React
-- TypeScript
-- Bootstrap
+- HTML 
 - Sass
+- Bootstrap
+- TypeScript
+- React
 - ...
 
 ## Instalação 🚀
